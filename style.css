@@ -21,14 +21,19 @@ h1 {
 }
 
 .choice {
-  --scale: 0.8;
+  --scale: 0.9;
   height: 200px;
   width: 200px;
   margin-top: 1.4rem;
   transition: all 0.3s ease;
+  cursor: pointer;
+  border-radius: 9999%;
 }
 .choice:hover , .choice:active {
   scale: var(--scale);
+  border: 4px solid black;
+  padding: 4px;
+
 }
 @media screen and (max-width: 668px) {
   .choice {
