@@ -57,6 +57,8 @@ const playgame = (userChoice) => {
 Choices.forEach((choice) => {
   choice.addEventListener("click", () => {
     const userChoice = choice.getAttribute("id");
+    choice.style = "--scale:1;";
     playgame(userChoice);
+    setTimeout(() => (choice.style = "--scale:0.8;"), 600);
   });
 });
