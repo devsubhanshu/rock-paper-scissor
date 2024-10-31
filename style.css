@@ -1,0 +1,67 @@
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+
+}
+
+
+body{
+    background-color:cornflowerblue;
+    
+   }
+
+h1{
+font-size: xx-large;
+height: 70px;
+text-align: center;
+background-color: greenyellow;
+
+}
+
+.choice{
+height: 200px;
+width: 200px;
+
+
+
+}
+
+.choices ,.score-board{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 50px;
+padding-top: 100px;
+}
+
+.score-board{
+    font-size: xx-large;
+    gap: 100px;
+    
+}
+
+img{
+height: 150px;
+width: 100px;
+border-radius: 50%;
+
+}
+
+
+img:hover{
+    cursor: pointer;
+    
+}
+
+#msg{
+padding: 0.5rem;
+font-size: x-large;
+height: 50px;
+width: 200px;
+text-align: center;
+margin-left: 570px;
+background-color: blue;
+border-radius: 25px;
+}
+
